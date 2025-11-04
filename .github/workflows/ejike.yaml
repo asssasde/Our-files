@@ -1,0 +1,19 @@
+name: massage
+on: [push]
+jobs:
+  head-massage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Oiling
+        run: echo "Hey get heady for head oiling"
+      - name: shaking head
+        run: echo "shakeyour head and relax"
+  body-massage:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Oiling
+        run: echo "Hey gey heady for body oil"
+      - name: Back massage
+        run: echo "Just relax"
+      - name: feet massage
+        run: echo "Dropping oil on your feet so ankle nerves gets reparied"
